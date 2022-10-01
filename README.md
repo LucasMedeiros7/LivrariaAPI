@@ -70,13 +70,14 @@ Exemplo:
 
 ## Usuários 🙂
 
-| Métodos |     Rotas      |                Descrição                |
-| ------- | :------------: | :-------------------------------------: |
-| GET     |   /usuarios    |   Retorna tabela inteira de usuarios    |
-| GET     | /usuarios/_id_ |   Retorna usuario especificado por id   |
-| POST    |   /usuarios    |     Cria um novo usuario na tabela      |
-| PATCH   | /usuarios/_id_ | Atualiza um usuario especificado por id |
-| DELETE  | /usuarios/_id_ |  Deleta um usuario especificado por id  |
+| Métodos |     Rotas                |                Descrição                |
+| ------- | :------------:           | :-------------------------------------: |
+| GET     |  /usuarios               |   Retorna tabela inteira de usuarios    |
+| GET     | /usuarios/_id_           |   Retorna usuario especificado por id   |
+| POST    | /usuarios/registrar      |     Cria um novo usuario na tabela      |
+| POST    | /usuarios/login          |     Para fazer o login do usuário       |
+| PATCH   | /usuarios/_id_           | Atualiza um usuario especificado por id |
+| DELETE  | /usuarios/_id_           |  Deleta um usuario especificado por id  |
 
 Acessar usuarios pela rota: http://localhost:3000/usuarios
 
